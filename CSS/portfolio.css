@@ -1,0 +1,26 @@
+html {
+    background-color: whitesmoke;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#portfolio {
+    text-decoration: overline;
+    text-decoration-color: crimson;
+}
+
+.avatar{
+  width:100%
+}
+
+.headerRepo {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.headerRepo > h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}

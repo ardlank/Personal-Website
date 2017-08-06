@@ -1,0 +1,19 @@
+html {
+    background-color: whitesmoke;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#resume {
+    text-decoration: overline;
+    text-decoration-color: crimson;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 700px;
+}
+
+div.wrapper embed {
+    width: 100%;
+    height: 100%;  
+}

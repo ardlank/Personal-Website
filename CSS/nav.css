@@ -1,0 +1,30 @@
+.navMain {
+    color: black;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+
+.navMain > li {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+.navMain > li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#contact {
+    color: crimson;
+}
+
+.navMain > li > a:hover {
+    color: #c1c1c1;
+}
