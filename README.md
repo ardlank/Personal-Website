@@ -1,3 +1,3 @@
 # Personal_Website
 
-Currently under construction.
+##Access the webpage by going to www.ardlank.com.
