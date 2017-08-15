@@ -97,5 +97,11 @@ h4 {
 }
 
 a:hover, a:visited, a:link, a:active { 
-    color:#000; 
+    color:#000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000;
+    text-decoration: underline;
 }
