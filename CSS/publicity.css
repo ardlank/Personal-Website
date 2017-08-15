@@ -80,6 +80,7 @@ html {
 
 
 h2 {
+    margin-top: 4px;
     margin-left: 14px;
     margin-right: 14px;
     font-size: 16px;
@@ -95,6 +96,6 @@ h4 {
     font-weight: 400;
 }
 
-a:hover,a:visited { 
+a:hover, a:visited, a:link, a:active { 
     color:#000; 
 }
