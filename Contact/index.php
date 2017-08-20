@@ -80,6 +80,9 @@
         <li><a href="../Publicity/">Publicity</a></li>
         <li><a href="../Contact/" id="contact">Contact</a></li>
     </ul>
+     <div class="spacer">
+        &nbsp;
+    </div>
     <div class="container">
     <?php if($msg != ''): ?>
     		<div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
