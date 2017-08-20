@@ -83,6 +83,9 @@
      <div class="spacer">
         &nbsp;
     </div>
+    <div class="spacer2">
+        &nbsp;
+    </div>
     <div class="container">
     <?php if($msg != ''): ?>
     		<div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>

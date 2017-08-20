@@ -12,26 +12,13 @@ html {
     text-decoration-color: crimson;
 }
 
-.aboutTitle {
-    text-align: center; 
-}
-
-h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-size: 55px;
-    text-decoration: underline;
-    color: white;
-}
-
 .wrapper{
     width: calc(100vw-50px);
     max-width: 630px;
     height: calc(100vh-100px);
     background: rgba(0,0,0,0.7);
     margin: 0 auto;
+    margin-top: 30px;
     padding: 1px;
     color: white;
 }

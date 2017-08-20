@@ -38,5 +38,10 @@
 
 .spacer{
     width: 100%;
-    height: 55px;
+    height: 65px;
+}
+
+.spacer2 {
+    width: 100%;
+    height: 25px;
 }
