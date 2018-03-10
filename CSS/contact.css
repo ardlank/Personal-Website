@@ -10,82 +10,15 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
-#contact {
+.active {
     text-decoration: overline;
     text-decoration-color: crimson;
 }
 
-.container {
-    width: calc(100vw-50px);
-    max-width: 730px;
-    height: 500px;
-    margin: 0 auto;
+.card-footer {
+    background-color: .
 }
 
-#form > ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-#form > li {
-  position: relative;
-}
-
-h1 {
-  display: block;
-  text-align: center;
-  background: #dc143c;
-  color: white;
-  margin: 0;
-  padding: 0.75em 0;
-  font-weight: normal;
-  border-radius: 5px 5px 0 0;
-}
-
-#form {
-    border-radius: 0 0 5px 5px;
-    border: 1px solid #ccc;
-    border-top: none;
-    background: #fff;
-}
-
-#form > ul li:not(:last-child) {
-  display: block;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 1em;
-}
-
-.label {
-    font-size: .8125em;
-    color: crimson;
-    opacity: 1;
-}
-
-input, textarea, button {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    outline: none;
-    padding: 2.25em 1em 1em;
-    padding-top: 10px;
-    font-size: 1.2em;
-}
-
-textarea {
-  height: 16em;
-  resize: none;
-  font-size: 1.2em;
-  font-family: verdana;
-  padding-left: 0.85em;
-}
-
-button {
-  display: block;
-  background: #dc143c;
-  padding: 1em;
-  color: white;
-  text-transform: uppercase;
-  cursor: pointer;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -1,50 +1,16 @@
-html {
-    background: url(../images/bg1.jpg) no-repeat center center fixed; */
+.bodybg {
+    background: url(../Assets/bg1.jpg) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+html {
     font-family: 'Helvetica Neue', sans-serif;
 }
 
-#about{
+.active {
     text-decoration: overline;
     text-decoration-color: crimson;
-}
-
-.wrapper{
-    width: calc(100vw-50px);
-    max-width: 630px;
-    height: calc(100vh-100px);
-    background: rgba(0,0,0,0.7);
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 1px;
-    color: white;
-}
-
-.about-pic {
-    float: left;
-    margin: 5px 10px 10px 5px;
-    border-radius: 50%;
-    width: 220px;
-    height: 340px;
-}
-
-p, #finalLine {
-    font-size: 18px;
-    font-weight: 200;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    color: white;
-    text-align: none;
-}
-
-#finalLine {
-    padding-top: 8px;
-    margin-top: 8px;
-    text-align: center;
 }

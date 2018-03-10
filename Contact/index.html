@@ -7,15 +7,14 @@
     <meta name="description" property="og:description" content="Ardlan Khalili's Personal Website">
     <meta name="keywords" content="Ardlan Khalili Personal website, ardlan khalili, Ardlan, Khalili, Ardlan Khalili, software developer, personal, software, developer">
     <meta name="author" content="Ardlan Khalili">
-    <meta name="author" content="Ardlan Khalili">
     <meta property="og:site_name" content="ardlank"/>
     <meta property="og:image" content="http://ardlank.com/Assets/profile-pic.png">
-    <meta property="og:title" content="Ardlan Khalili | Resume"/>
-    <meta property="og:url" content="http://ardlank.com/Resume">
+    <meta property="og:title" content="Ardlan Khalili | Contact"/>
+    <meta property="og:url" content="http://ardlank.com/Contact">
     <meta property="og:type" content="Ardlan Khalili"/>
-    <title>Ardlan Khalili | Resume</title>
+    <title>Ardlan Khalili | Contact Me</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/resume.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
     <link rel="icon" type="image/png" href="../Assets/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="../Assets/favicon-16x16.png" sizes="16x16" />
 </head>
@@ -33,15 +32,44 @@
             <a class="nav-item nav-link" href="../index.html">Home</a>
             <a class="nav-item nav-link" href="../About/">About</a>
             <a class="nav-item nav-link" href="../Portfolio/">Portfolio</a>
-            <a class="nav-item nav-link active" href=".">Resume</a>
+            <a class="nav-item nav-link" href="../Resume/">Resume</a>
             <a class="nav-item nav-link" href="../Publicity/">Publicity</a>
-            <a class="nav-item nav-link" href="../Contact/">Contact</a>
+            <a class="nav-item nav-link active" href=".">Contact</a>
             </div>
         </div>
     </nav>
+    
+     <div class="spacer">
+        &nbsp;
+    </div>
+    
+   <div class="card col-sm-7 mx-auto px-0">
+           <div class="card-header border-success border-0 text-center text-white py-4 h1" style="background-color: #dc143c;">Contact Me</div>
+           
+           <div class="card-body px-0 pb-0">
+               <form method="post" action="Email.php">
+                   
+                <div class="px-4 py-2">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="Name" required>
+                    </div>
 
-    <div class='embed-responsive' style='padding-bottom:100%'>
-        <object data='../Assets/ArdlanK_Resume.pdf' type='application/pdf' width='100%' height='100%'></object>
+                    <div class="form-group">
+                        <label for="mail">Email:</label>
+                        <input type="email" class="form-control" id="mail" name="mail" aria-describedby="emailHelp" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea type="email" class="form-control" rows="4" id="message" name="message" aria-describedby="emailHelp" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                
+                <button type="submit" name="submit" class="card-footer btn btn-primary border-0 py-4 w-100" style="background-color: #dc143c;"><h3>Submit</h3></button>
+                   
+               </form>
+            </div>
     </div>
     
     <!-- Optional JavaScript -->

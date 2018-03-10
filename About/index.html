@@ -8,34 +8,46 @@
     <meta name="keywords" content="Ardlan Khalili Personal website, ardlan khalili, Ardlan, Khalili, Ardlan Khalili, software developer, personal, software, developer">
     <meta name="author" content="Ardlan Khalili">
     <meta property="og:site_name" content="ardlank"/>
-    <meta property="og:image" content="http://ardlank.com/images/profile-pic.png">
+    <meta property="og:image" content="http://ardlank.com/Assets/profile-pic.png">
     <meta property="og:title" content="Ardlan Khalili | About"/>
     <meta property="og:url" content="http://ardlank.com/About">
     <meta property="og:type" content="Ardlan Khalili"/>
     <title>Ardlan Khalili | About</title>
-    <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/about.css">
-    <link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../Assets/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../Assets/favicon-16x16.png" sizes="16x16" />
 </head>
     
-<body>
-   <ul class="navMain">
-        <li><a href="..">Home</a></li>
-        <li><a href="../About/" id="about">About</a></li>
-        <li><a href="../Portfolio/">Portfolio</a></li>
-        <li><a href="../Resume/">Resume</a></li>
-       <li><a href="../Publicity/">Publicity</a></li>
-        <li><a href="../Contact/" id="contact">Contact</a></li>
-    </ul>
+<body class="bodybg">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="../Assets/favicon-32x32.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav justify-content-around">
+            <a class="nav-item nav-link" href="../index.html">Home</a>
+            <a class="nav-item nav-link active" href=".">About</a>
+            <a class="nav-item nav-link" href="../Portfolio/">Portfolio</a>
+            <a class="nav-item nav-link" href="../Resume/">Resume</a>
+            <a class="nav-item nav-link" href="../Publicity/">Publicity</a>
+            <a class="nav-item nav-link" href="../Contact/">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
      <div class="spacer">
         &nbsp;
     </div>
-
-    <div class="wrapper">
-        <img src="../images/aboutImg.png" alt="About Picture" class="about-pic">
-        <p>    
-            Welcome! I am Ardlan Khalili, a software developer originally from Mashhad, Iran. In 1999, my family immigrated to the United States which later became an excellent segue to a pursuit in computer science education.<br/><br/>
+    
+    <div class="col-sm-8 col-lg-6 mx-auto px-0">
+        <div class="card text-white text-center" style="background-color: rgba(0,0,0,0.5);">
+        <img src="../Assets/aboutImg.png" alt="About Picture" class="rounded-circle col-6 mx-auto py-2 px-0" style="width: 220px; height: 325px;">
+        <p>
+	       Welcome! I am Ardlan Khalili, a software developer originally from Mashhad, Iran. In 1999, my family immigrated to the United States which later became an excellent segue to a pursuit in computer science education.<br/><br/>
             
             While studying to obtain my degree from the University of Tennessee, combined with cutting-edge internships and research oppurtunities, I have gained a rich skillset in coding languages, product cycling, and technological stacks.<br/><br/>
             
@@ -43,7 +55,14 @@
 
             Professional life aside, my hobbies include playing soccer, analyzing the market, and educating people about software development. However, I love trying new activities and exploring areas I have never been introduced to.<br/>
         </p>
-        <p id="finalLine">More details can be found in my resume and publicity tab!</h3>
+        <p>More details can be found in my resume and publicity tab!</p>
+        </div>
     </div>
-</body>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </html>

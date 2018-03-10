@@ -8,51 +8,53 @@
     <meta name="keywords" content="Ardlan Khalili Personal website, ardlan khalili, Ardlan, Khalili, Ardlan Khalili, software developer, personal, software, developer">
     <meta name="author" content="Ardlan Khalili">
     <meta property="og:site_name" content="ardlank"/>
-    <meta property="og:image" content="http://ardlank.com/images/profile-pic.png">
+    <meta property="og:image" content="http://ardlank.com/Assets/profile-pic.png">
     <meta property="og:title" content="Ardlan Khalili | Portfolio"/>
     <meta property="og:url" content="http://ardlank.com/Portfolio">
     <meta property="og:type" content="Ardlan Khalili"/>
     <title>Ardlan Khalili | Portfolio</title>
     <meta name="description" content="Ardlan Khalili's About">
-    <link href="https://bootswatch.com/simplex/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/portfolio.css">
-    <link rel="stylesheet" href="../CSS/nav.css">
-    <link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../Assets/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../Assets/favicon-16x16.png" sizes="16x16" />
 </head>
     
-<body>
-    <ul class="navMain">
-        <li><a href="..">Home</a></li>
-        <li><a href="../About/">About</a></li>
-        <li><a href="../Portfolio/" id="portfolio">Portfolio</a></li>
-        <li><a href="../Resume/">Resume</a></li>
-        <li><a href="../Publicity/">Publicity</a></li>
-        <li><a href="../Contact/" id="contact">Contact</a></li>
-    </ul>
-     <div class="spacer">
-        &nbsp;
-    </div>
-    <div class="spacer2">
-        &nbsp;
+<body class="bodybg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="../Assets/favicon-32x32.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav justify-content-around">
+            <a class="nav-item nav-link" href="../index.html">Home</a>
+            <a class="nav-item nav-link" href="../About/">About</a>
+            <a class="nav-item nav-link active" href=".">Portfolio</a>
+            <a class="nav-item nav-link" href="../Resume/">Resume</a>
+            <a class="nav-item nav-link" href="../Publicity/">Publicity</a>
+            <a class="nav-item nav-link" href="../Contact/">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="text-center py-2 bg-white">
+        <h2>Latest Repos</h2>
     </div>
     
-    
-    <div class="headerRepo">
-        <h3>Latest Repos</h3>
+    <div class="card mx-auto col-sm-11 mt-3 px-0">
+      <ul class="list-group list-group-flush" id="me">
+      </ul>
     </div>
     
-    <hr>
+    <script src="portfolio.js"></script>
     
-    <div class="container">
-        <div id="profile"></div>
-    </div>
-<script
-    src="https://code.jquery.com/jquery-3.1.1.js"
-    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-    crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../js/portfolio.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
