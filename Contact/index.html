@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../CSS/contact.css">
     <link rel="icon" type="image/png" href="../Assets/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="../Assets/favicon-16x16.png" sizes="16x16" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -64,6 +65,8 @@
                         <label for="message">Message:</label>
                         <textarea type="email" class="form-control" rows="4" id="message" name="message" aria-describedby="emailHelp" placeholder="Message" required></textarea>
                     </div>
+
+                    <div class="g-recaptcha" data-sitekey="6Lc2qoUUAAAAAMjYfHyRMQlV8j5MyD1pRq3uOUWU"></div>
                 </div>
                 
                 <button type="submit" name="submit" class="card-footer btn btn-primary border-0 py-4 w-100" style="background-color: #dc143c;"><h3>Submit</h3></button>
